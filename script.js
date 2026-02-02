@@ -69,7 +69,7 @@ no_button.addEventListener('click', () => {
     // Change banner source
     let banner = document.getElementById('banner');
     if (clicks === 0) {
-        banner.src = "no.gif";
+        banner.src = "sad.gif";
         refreshBanner();
     }
     clicks++;
@@ -98,7 +98,7 @@ no_button.addEventListener('click', () => {
 yes_button.addEventListener('click', () => {
     // change banner gif path
     let banner = document.getElementById('banner');
-    banner.src = "yes.gif";
+    banner.src = "happy.gif";
     refreshBanner();
     // hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];
@@ -152,3 +152,4 @@ function changeLanguage() {
     }
 
 }
+
