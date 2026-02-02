@@ -25,7 +25,7 @@ body {
 #no-button {
     margin: 0 10px;
     color: white;
-    background-color: red;
+    background-color: blue;
     height: 40px !important;
     width: auto;
     border: none;
@@ -42,7 +42,7 @@ body {
     margin: 0 10px;
     color: white;
     border: none;
-    background-color: green;
+    background-color: pink;
     cursor: pointer;
     height: 40px;
 
@@ -134,4 +134,5 @@ body {
     }
 
 }
+
 
